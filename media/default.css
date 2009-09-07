@@ -1,0 +1,50 @@
+/* default stylesheet, add styles here */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0.5em 1em;
+    background-color: #e0e1dd;
+    border-bottom: 1px solid #9a9b9c;
+}
+
+#banner {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#banner img {
+    margin:0;
+    padding:0;
+}
+
+#content {
+    padding: 4em 2em;
+}
+
+#your_score {
+    font-size: 10em;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(200,200,200);
+    padding: 5px;
+    font-family: "Nimbus Sans",HelveticaNeue-Light,"Helvetica Neue Light",Arial,sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+th {
+    text-align: right;
+    font-weight: normal;
+    vertical-align: middle;
+    padding-right: 1em;
+}

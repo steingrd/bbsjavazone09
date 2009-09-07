@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="POST">
+<table>
+	<tr>
+		<th>Navn:</th>
+		<td>{{ player.name }}</td>
+	</tr>
+	{{ form.as_table }}
+	<tr>
+		<td></td>
+		<td><input type="submit" value="Neste"></td>
+	</tr>
+</table>
+</form>
+{% endblock %}
